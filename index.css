@@ -3,21 +3,27 @@
   }
 
   html {
-    background-image: url("https://image.freepik.com/free-photo/colorful-sprinkles-scattered-table_23-2148081704.jpg");
-  }  
+    background-color: #ffeedc;
+  }
+
+  header {
+    color: #ce7b42;
+    text-align: center;
+  }
 
   h1 {
-    color: white;
-    text-align: center;
-    background-color: #ffc0cb; 
+    font-family: Optima, Geneva, Tahoma, sans-serif;
+  }
+  h3 {
+    color: black;
+    text-align: left;
   }
    
   p, 
   li {
-    color: white;
+    color: black;
     font-size: 18px;
-    text-align: center;
-    background-color: #ffc0cb;
+    text-align: left;
   }
    
   a {
