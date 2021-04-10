@@ -1,22 +1,24 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-    background-image: url("https://image.freepik.com/free-photo/colorful-sprinkles-scattered-table_23-2148081704.jpg");
-
   }
-      
+
+  html {
+    background-image: url("https://image.freepik.com/free-photo/colorful-sprinkles-scattered-table_23-2148081704.jpg");
+  }  
+
   h1 {
     color: white;
-    background-color: #ffc0cb;
+    text-align: center;
+    background-color: #ffc0cb; 
   }
-   
    
   p, 
   li {
     color: white;
     font-size: 18px;
+    text-align: center;
     background-color: #ffc0cb;
   }
-   
    
   a {
     text-decoration: none;
