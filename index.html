@@ -1,28 +1,116 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-    <link href="/index.css" type="text/css" rel="stylesheet">
-    <title>Welcome</title>
-</head>
-<header>
-    <br>
-    <h1>Maria D. Hernandez</h1>
-    <br>
-</header>
-<body>
-  <h3>Welcome to my online portfolio!</h3>
-  <p> I have decided to change career paths. Previously, I worked in the art and design field. 
-      There were aspects that I found to be engaging, but I eventually lost interest. It felt like I wasn't being challenged. 
-      When I learned about front-end software development, I saw a way to combine my past experience into something new. 
-      I am very excited to learn more and take my skills to new heights. A few of my early goals include:</p>
-  <ul>
-      <li>Building my first interactive website</li>
-      <li>Creating custom graphics for my web pages</li>
-      <li>And implementing UI design</li>
-  </ul>
-  <p>I'll be updating this page along my journey. Until then, here is a little friend to make you smile.</p>
-  <img src="https://www.k9web.com/wp-content/uploads/2020/12/orange-spotted-dalmatian-dog-780x914.jpg" />
-</body>
+    <head>
+        <title>CSS Text Formatting</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <header>
+    </header>
+
+    <body>
+        <h1>CSS Text Formatting</h1>
+        <h2>A hierachal list of tags to use for consistent formatting.</h2>
+        <table>
+            <thead>
+                <tr> <!-- Row Headings -->
+                    <th class="tag">Tag</th>
+                    <th class="name">Name</th>
+                    <th class="description">Description</th>
+                </tr>
+                <tbody>
+                    <tr> <!-- Font Family -->
+                        <td id="tag-item">
+                            <span class="code">&lt;font-family&gt;</span>
+                        </td>
+                        <td id="name-item">Font Family</td>
+                        <td id="description-item">A property used to specify the typeface in a rule set. Fonts must be 
+                            available to the browser to display correctly, either on the computer 
+                            or linked as a web font. If a font value is not available, browsers will 
+                            display their default font. When using a multi-word font name, it is 
+                            best to wrap them in quotes.
+                        </td>
+                    </tr>
+                    <tr> <!-- Font Size -->
+                        <td id="tag-item">
+                            <span class="code">&lt;font-size&gt;</span>
+                        </td>
+                        <td id="name-item">Font Size</td>
+                        <td id="description-item">Used to set text sizes. Font size values can be many different units 
+                            or types such as pixels.
+                        </td>
+                    </tr>
+                    <tr> <!-- Font Style -->
+                        <td id="tag-item">
+                            <span class="code">&lt;font-style&gt;</span>
+                        </td>
+                        <td id="name-item">Font Style</td>
+                        <td id="description-item">The property determines the font style in which text will appear. For 
+                            example, it can set the font style to italic.
+                        </td>
+                    </tr>
+                    <tr> <!-- Font Weight -->
+                        <td id="tag-item">
+                            <span class="code">&lt;font-weight&gt;</span>
+                        </td>
+                        <td id="name-item">Font Weight</td>
+                        <td id="description-item">The property can be used to set the weight (boldness) of text. The 
+                            provided value can be a keyword such as "bold" or "normal".
+                        </td>
+                    </tr>
+                    <tr> <!-- Line Height -->
+                        <td id="tag-item">
+                            <span class="code">&lt;line-height&gt;</span>
+                        </td>
+                        <td id="name-item">Line Height</td>
+                        <td id="description-item">The property declares the vertical spacing between lines of text. It 
+                            accepts both unitless numbers as a ratio (eg. 2) and numbers specified 
+                            by unit values (eg. 12px) but it does not accept negative numbers. 
+                            <br>
+                            A unitless number is an absolute value that will compute the line height 
+                            as a ratio to the font size and a unit number can be any valid CSS unit 
+                            (eg. pixels, ems, percents, etc.)
+                        </td>
+                    </tr>
+                    <tr> <!-- Text Align -->
+                        <td id="tag-item">
+                            <span class="code">&lt;text-align&gt;</span>
+                        </td>
+                        <td id="name-item">Text Align</td>
+                        <td id="description-item">The property can be used to set the text alignment of inline contents. 
+                            This property can be set to these values: left, center, or right.
+                        </td>
+                    </tr>
+                    <tr> <!-- Color -->
+                        <td id="tag-item">
+                            <span class="code">&lt;color&gt;</span>
+                        </td>
+                        <td id="name-item">Color</td>
+                        <td id="description-item">This property can change the foreground text color of an element. The 
+                            value can be a valid color name supported in CSS like green. Also 3 
+                            digit or 6 digit color code like #ffffff can be used to set the color.
+                        </td>
+                    </tr>
+                    <tr> <!-- Background Color -->
+                        <td id="tag-item">
+                            <span class="code">&lt;background-color&gt;</span>
+                        </td>
+                        <td id="name-item">Background Color</td>
+                        <td id="description-item">The property controls the background color of elements.</td>
+                    </tr>
+                    <tr> <!-- Opacity -->
+                        <td id="tag-item">
+                            <span class="code">&lt;opacity&gt;</span>
+                        </td>
+                        <td id="name-item">Opacity</td>
+                        <td id="description-item">The property can be used to control the transparency of an element. The 
+                            value of this property ranges from 0 (transparent) to 1 (opaque).
+                        </td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    </body>
 
 </html>
